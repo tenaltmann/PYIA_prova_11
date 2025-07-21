@@ -20,3 +20,5 @@ gato = Gato()
 
 
 animal.falar()
+cachorro.falar()
+gato.falar()
