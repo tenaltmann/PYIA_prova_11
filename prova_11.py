@@ -1,14 +1,22 @@
 class Animal:
-    def __init__(self, especie):
-        self.especie = especie
-
     def falar(self):
-        print("Este animal faz um som genérico")
+        print("Este animal faz um som genérico !")
         return
     
 class Cachorro:
     def falar(self):
-        print("O cachorro está latindo")
+        print("O cachorro está latindo !")
         return
     
+class Gato:
+    def falar(self):
+        print("O Gato está Miando !")
+        return    
     
+
+animal = Animal()
+cachorro = Cachorro()
+gato = Gato()
+
+
+animal.falar()
