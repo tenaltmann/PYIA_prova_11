@@ -2,7 +2,13 @@ class Animal:
     def __init__(self, especie):
         self.especie = especie
 
-    def emitir_som_genérico(self):
+    def falar(self):
         print("Este animal faz um som genérico")
         return
+    
+class Cachorro:
+    def falar(self):
+        print("O cachorro está latindo")
+        return
+    
     
